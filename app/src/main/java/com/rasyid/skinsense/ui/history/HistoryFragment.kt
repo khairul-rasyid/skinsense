@@ -22,17 +22,22 @@ class HistoryFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val historyViewModel =
-            ViewModelProvider(this)[HistoryViewModel::class.java]
-
         _binding = FragmentHistoryBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
+        return root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val historyViewModel =
+            ViewModelProvider(this)[HistoryViewModel::class.java]
 
         val textView: TextView = binding.textNotifications
         historyViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
-        return root
     }
 
     override fun onDestroyView() {
