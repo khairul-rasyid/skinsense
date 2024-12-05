@@ -6,15 +6,17 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.CompoundButton
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.rasyid.skinsense.data.datastore.SettingsPreference
-import com.rasyid.skinsense.data.datastore.dataStore
+import androidx.fragment.app.viewModels
 import com.rasyid.skinsense.databinding.FragmentSettingsBinding
-import com.rasyid.skinsense.ui.ViewModelFactoryDatastore
+import com.rasyid.skinsense.ui.ViewModelFactory
 
 class SettingsFragment : Fragment() {
 
     private var _binding: FragmentSettingsBinding? = null
+
+    private val settingsViewModel: SettingsViewModel by viewModels<SettingsViewModel> {
+        ViewModelFactory.getInstance(requireActivity())
+    }
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -33,9 +35,6 @@ class SettingsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        val preference = SettingsPreference.getInstance(requireActivity().dataStore)
-        val settingsViewModel = ViewModelProvider(this, ViewModelFactoryDatastore(preference))[SettingsViewModel::class.java]
 
         settingsViewModel.getDarkMode().observe(viewLifecycleOwner) { isDarkMode ->
             binding.switchTheme.isChecked = isDarkMode

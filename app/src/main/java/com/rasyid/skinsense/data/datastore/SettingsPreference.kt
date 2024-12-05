@@ -14,7 +14,7 @@ val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "se
 class SettingsPreference private constructor(private val dataStore: DataStore<Preferences>){
     private val sTHEME = booleanPreferencesKey("dark_mode")
 
-    fun getTheme() : Flow<Boolean> {
+    fun getDarkMode() : Flow<Boolean> {
         return dataStore.data.map { preference ->
             preference[sTHEME] ?: false
         }

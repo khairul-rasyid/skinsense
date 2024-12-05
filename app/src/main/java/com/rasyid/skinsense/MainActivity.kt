@@ -1,23 +1,25 @@
 package com.rasyid.skinsense
 
 import android.os.Bundle
+import androidx.activity.viewModels
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.rasyid.skinsense.data.datastore.SettingsPreference
-import com.rasyid.skinsense.data.datastore.dataStore
 import com.rasyid.skinsense.databinding.ActivityMainBinding
-import com.rasyid.skinsense.ui.ViewModelFactoryDatastore
+import com.rasyid.skinsense.ui.ViewModelFactory
 import com.rasyid.skinsense.ui.settings.SettingsViewModel
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+
+    private val settingsViewModel: SettingsViewModel by viewModels<SettingsViewModel> {
+        ViewModelFactory.getInstance(this)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,9 +39,6 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-
-        val preference = SettingsPreference.getInstance(this.dataStore)
-        val settingsViewModel = ViewModelProvider(this, ViewModelFactoryDatastore(preference))[SettingsViewModel::class.java]
 
         settingsViewModel.getDarkMode().observe(this) { isDarkMode ->
             if (isDarkMode) {
