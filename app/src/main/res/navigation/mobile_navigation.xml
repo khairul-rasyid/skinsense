@@ -11,6 +11,12 @@
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
+    <activity
+        android:id="@+id/navigation_analysis"
+        android:name="com.rasyid.skinsense.ui.analysis.AnalysisActivity"
+        android:label="activity_analysis"
+        tools:layout="@layout/activity_analysis" />
+
     <fragment
         android:id="@+id/navigation_history"
         android:name="com.rasyid.skinsense.ui.history.HistoryFragment"

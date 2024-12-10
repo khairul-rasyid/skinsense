@@ -1,9 +1,160 @@
 <resources>
     <string name="app_name">SkinSense</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="dark_mode">Dark Mode</string>
-    <string name="title_settings">Settings</string>
     <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="intro_analysis">Terdapat 15 pertanyaan yang harus dijawab mengenai beberapa topik berikut:</string>
+    <string name="topic_1">1. Tipe Kulit</string>
+    <string name="topic_2">2. Kondisi Kulit</string>
+    <string name="topic_3">3. Sensitivitas dan Preferensi Produk</string>
+    <string name="topic_4">4. Alergi dan Pola Hidup</string>
+    <string name="start">Mulai</string>
+    <string name="analysis">Analisis</string>
+    <string name="before">Sebelumnya</string>
+    <string name="question">Pertanyaan</string>
+    <string name="next">Selanjutnya</string>
+    <string name="answer_options">Pilihan Jawaban</string>
+
+    <string-array name="questions">
+        <item>1. Bagaimana kulit wajah Anda terasa setelah mencuci muka tanpa pelembap?</item>
+        <item>2. Bagaimana penampilan pori-pori Anda?</item>
+        <item>3. Seberapa sering Anda mengalami jerawat?</item>
+        <item>4. Bagaimana kulit Anda terasa di sore hari?</item>
+        <item>5. Apakah kulit Anda sering mengalami kemerahan atau iritasi?</item>
+        <item>6. Bagaimana kulit Anda terasa setelah terkena sinar matahari?</item>
+        <item>7. Apa masalah utama kulit wajah Anda?</item>
+        <item>8. Bagaimana reaksi kulit Anda terhadap produk baru?</item>
+        <item>9. Produk apa yang paling Anda prioritaskan dalam skincare?</item>
+        <item>10. Seberapa sering Anda menggunakan sunscreen?</item>
+        <item>11. Apakah Anda memiliki alergi terhadap bahan tertentu dalam produk skincare atau kosmetik?</item>
+        <item>12. Seberapa sering Anda mengonsumsi makanan berminyak atau tinggi gula?</item>
+        <item>13. Bagaimana tingkat stres Anda sehari-hari?</item>
+        <item>14. Berapa banyak air yang Anda minum dalam sehari?</item>
+        <item>15. Apakah Anda sering terpapar cuaca ekstrem (panas atau dingin)?</item>
+    </string-array>
+
+    <array name="options">
+        <item>@array/option_1</item>
+        <item>@array/option_2</item>
+        <item>@array/option_3</item>
+        <item>@array/option_4</item>
+        <item>@array/option_5</item>
+        <item>@array/option_6</item>
+        <item>@array/option_7</item>
+        <item>@array/option_8</item>
+        <item>@array/option_9</item>
+        <item>@array/option_10</item>
+        <item>@array/option_11</item>
+        <item>@array/option_12</item>
+        <item>@array/option_13</item>
+        <item>@array/option_14</item>
+        <item>@array/option_15</item>
+    </array>
+
+    <string-array name="option_1">
+        <item>Kering dan tertarik</item>
+        <item>Berminyak</item>
+        <item>Normal, tidak terlalu kering atau berminyak</item>
+        <item>Berbeda-beda (kadang kering, kadang berminyak)</item>
+    </string-array>
+
+    <string-array name="option_2">
+        <item>Hampir tidak terlihat</item>
+        <item>Terlihat besar di beberapa area</item>
+        <item>Normal, tidak terlalu besar atau kecil</item>
+        <item>Sangat terlihat di seluruh wajah</item>
+    </string-array>
+
+    <string-array name="option_3">
+        <item>Jarang sekali</item>
+        <item>Sering, terutama di zona T</item>
+        <item>Tidak terlalu sering, hanya di area tertentu</item>
+        <item>Sangat sering di berbagai area wajah</item>
+    </string-array>
+
+    <string-array name="option_4">
+        <item>Sangat kering</item>
+        <item>Berminyak di seluruh wajah</item>
+        <item>Normal</item>
+        <item>Kombinasi (kering di beberapa area, berminyak di area lain)</item>
+    </string-array>
+
+    <string-array name="option_5">
+        <item>Sering, terutama saat udara dingin atau panas</item>
+        <item>Kadang-kadang saat mencoba produk baru</item>
+        <item>Hampir tidak pernah</item>
+        <item>Tergantung kondisi tertent</item>
+    </string-array>
+
+    <string-array name="option_6">
+        <item>Mudah terbakar dan terasa kering</item>
+        <item>Berminyak atau berkeringa</item>
+        <item>Tidak ada perubahan signifikan</item>
+        <item>Tergantung pada durasi paparan</item>
+    </string-array>
+
+    <string-array name="option_7">
+        <item>Kulit kering atau kusam</item>
+        <item>Minyak berlebih dan jerawa</item>
+        <item>Penuaan dini atau garis halus</item>
+        <item>Kombinasi masalah</item>
+    </string-array>
+
+    <string-array name="option_8">
+        <item>Sangat sensitif, sering iritasi</item>
+        <item>Sensitif hanya pada produk tertentu</item>
+        <item>Biasanya tidak ada masalah</item>
+        <item>Tergantung jenis produk</item>
+    </string-array>
+
+    <string-array name="option_9">
+        <item>Pelembap untuk hidrasi</item>
+        <item>Pembersih untuk kontrol minyak</item>
+        <item>Serum untuk perawatan spesifik</item>
+        <item>Sunscreen untuk perlindungan</item>
+    </string-array>
+
+    <string-array name="option_10">
+        <item>Setiap hari tanpa absen</item>
+        <item>Kadang-kadang, hanya saat keluar rumah</item>
+        <item>Jarang sekali</item>
+        <item>Hampir tidak pernah</item>
+    </string-array>
+
+    <string-array name="option_11">
+        <item>Ya, sering mengalami reaksi alergi</item>
+        <item>Hanya terhadap beberapa bahan tertentu</item>
+        <item>Tidak yakin, tapi pernah mengalami iritasi</item>
+        <item>Tidak pernah ada reaksi alergi</item>
+    </string-array>
+
+    <string-array name="option_12">
+        <item>Sangat sering</item>
+        <item>Kadang-kadang</item>
+        <item>Jarang sekali</item>
+        <item>Hampir tidak pernah</item>
+    </string-array>
+
+    <string-array name="option_13">
+        <item>Sangat tinggi dan sering tertekan</item>
+        <item>Sedang, kadang stres</item>
+        <item>Rendah, jarang stres</item>
+        <item>Tidak pernah stres</item>
+    </string-array>
+
+    <string-array name="option_14">
+        <item>Kurang dari 1 liter</item>
+        <item>1–2 liter</item>
+        <item>Lebih dari 2 liter</item>
+        <item>Tidak teratur, tergantung aktivitas</item>
+    </string-array>
+
+    <string-array name="option_15">
+        <item>Ya, sering terkena cuaca ekstrem</item>
+        <item>Kadang-kadang, terutama di musim tertentu</item>
+        <item>Tidak, cuaca stabil sepanjang tahun</item>
+        <item>Beragam tergantung musim</item>
+    </string-array>
+
 </resources>

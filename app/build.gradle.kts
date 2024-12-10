@@ -62,6 +62,7 @@ dependencies {
 
     //local
     implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.activity)
     ksp(libs.room.compiler)
 
     //preference datastore

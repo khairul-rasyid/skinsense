@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    app:layoutDescription="@xml/activity_analysis_scene"
+    tools:context=".ui.analysis.AnalysisActivity">
+
+    <TextView
+        android:id="@+id/tv_intro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/intro_analysis"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <TextView
+        android:id="@+id/tv_topic_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/topic_1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_intro"
+        app:layout_constraintStart_toStartOf="@+id/tv_intro"
+        app:layout_constraintTop_toBottomOf="@+id/tv_intro" />
+
+    <TextView
+        android:id="@+id/tv_topic_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/topic_2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_topic_1"
+        app:layout_constraintStart_toStartOf="@+id/tv_topic_1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_topic_1" />
+
+    <TextView
+        android:id="@+id/tv_topic_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/topic_3"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_topic_2"
+        app:layout_constraintStart_toStartOf="@+id/tv_topic_2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_topic_2" />
+
+    <TextView
+        android:id="@+id/tv_topic_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/topic_4"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_topic_3"
+        app:layout_constraintStart_toStartOf="@+id/tv_topic_3"
+        app:layout_constraintTop_toBottomOf="@+id/tv_topic_3" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/start"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_topic_4"
+        app:layout_constraintStart_toStartOf="@+id/tv_topic_4"
+        app:layout_constraintTop_toBottomOf="@+id/tv_topic_4" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/question"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <RadioGroup
+        android:id="@+id/rg_answers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@id/tv_question"
+        app:layout_constraintStart_toStartOf="@id/tv_question"
+        app:layout_constraintTop_toBottomOf="@id/tv_question">
+
+        <RadioButton
+            android:id="@+id/rb_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer_options" />
+
+        <RadioButton
+            android:id="@+id/rb_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer_options" />
+
+        <RadioButton
+            android:id="@+id/rb_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer_options" />
+
+        <RadioButton
+            android:id="@+id/rb_04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer_options" />
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/btn_prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_navigate_before_24"
+        android:contentDescription="@string/before"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rg_answers"/>
+
+    <ImageButton
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="280dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/next"
+        android:src="@drawable/baseline_navigate_next_24"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_prev"
+        app:layout_constraintStart_toEndOf="@+id/btn_prev"
+        app:layout_constraintTop_toTopOf="@id/btn_prev"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_analysis"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:text="@string/analysis"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
