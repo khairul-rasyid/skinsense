@@ -15,6 +15,15 @@
     <string name="question">Pertanyaan</string>
     <string name="next">Selanjutnya</string>
     <string name="answer_options">Pilihan Jawaban</string>
+    <string name="timestamp">11 Desember 2024, 12:12:12</string>
+    <string name="title_product">Produk</string>
+    <string name="products">Moisturizer, Calming Mask</string>
+    <string name="title_feature">Fitur</string>
+    <string name="features">Hydrating, Balanced</string>
+    <string name="title_material">Bahan</string>
+    <string name="materials">Allantoin, Panthenol, Cica, Ceramide</string>
+    <string name="delete_history">Hapus Histori</string>
+    <string name="no_history">Tidak ada histori</string>
 
     <string-array name="questions">
         <item>1. Bagaimana kulit wajah Anda terasa setelah mencuci muka tanpa pelembap?</item>
@@ -155,6 +164,144 @@
         <item>Kadang-kadang, terutama di musim tertentu</item>
         <item>Tidak, cuaca stabil sepanjang tahun</item>
         <item>Beragam tergantung musim</item>
+    </string-array>
+
+    <string-array name="source_article">
+        <item>Aido Health</item>
+        <item>Aido Health</item>
+        <item>Liputan 6</item>
+        <item>Liputan 6</item>
+        <item>Halodoc</item>
+    </string-array>
+
+    <string-array name="url_article">
+        <item>https://aido.id/health-articles/mengenal-berbagai-jenis-skincare-dan-fungsinya-yang-perlu-anda-miliki!/detail</item>
+        <item>https://aido.id/health-articles/ketahui-urutan-skincare-malam-agar-kulit-wajah-sehat-dan-cerah/detail</item>
+        <item>https://www.liputan6.com/feeds/read/5805032/tips-kulit-sehat-dan-cerah-panduan-lengkap-merawat-kulit?page=5</item>
+        <item>https://www.liputan6.com/feeds/read/5805102/tips-biar-muka-ga-kusam-panduan-lengkap-merawat-wajah?page=3</item>
+        <item>https://www.halodoc.com/artikel/pentingnya-skincare-awareness-di-usia-remaja?srsltid=AfmBOopcTbWFSGVylzG1mS5KZxNit9lL9Xq0odf6RSVdZlt8-abRIiYQ</item>
+    </string-array>
+
+    <string-array name="title_article">
+        <item>Mengenal Berbagai Jenis Skincare dan Fungsinya yang Perlu Anda Miliki!</item>
+        <item>Ketahui Urutan Skincare Malam agar Kulit Wajah Sehat dan Cerah</item>
+        <item>Tips Kulit Sehat dan Cerah: Panduan Lengkap Merawat Kulit</item>
+        <item>Tips Biar Muka Ga Kusam: Panduan Lengkap Merawat Wajah</item>
+        <item>Pentingnya Skincare Awareness di Usia Remaja</item>
+    </string-array>
+
+    <integer-array name="image_article">
+        <item>@drawable/article_1</item>
+        <item>@drawable/article_2</item>
+        <item>@drawable/article_3</item>
+        <item>@drawable/article_4</item>
+        <item>@drawable/article_5</item>
+    </integer-array>
+
+    <string-array name="description_article">
+        <item>
+            Di antara banyaknya produk yang beredar di pasaran, tentu Anda tidak harus memiliki semuanya. Anda hanya perlu memilih beberapa jenis skincare yang memiliki fungsi yang tepat sesuai dengan tipe dan permasalahan kulit Anda. Langsung saja, mari simak ulasan mengenai jenis skincare dan fungsinya berikut ini.
+            Jenis Skincare dan Fungsinya Merawat kulit wajah sejatinya dapat dilakukan dengan berbagai cara, termasuk dengan produk skincare yang tergolong praktis dan mudah digunakan. Nah, agar perawatan wajah dengan produk skincare berjalan dengan baik, mari kenali terlebih dahulu beberapa jenis skincare yang paling umum digunakan beserta fungsinya.\n\n
+            1.	Cleanser
+            Pada urutan pertama jenis produk skincare yang tergolong penting dan wajib untuk dimiliki adalah cleanser atau pembersih wajah. Dengan melakukan dua tahapan pembersihan wajah, kotoran, debu, serta sisa make-up dapat terangkat dengan baik.\n\n
+            2.	Toner
+            Sama halnya seperti jenis produk skincare di atas, toner terdiri dari dua jenis, yakni exfoliating toner dan hydrating toner. Exfoliating toner memiliki fungsi mengangkat sel kulit mati pada permukaan kulit, sedangkan hydrating toner fungsinya adalah mengembalikan kelembapan dan juga menyeimbangkan tingkat pH kulit.\n\n
+            3.	Essence
+            Setelah penggunaan toner, ada yang melanjutkan penggunaan jenis skincare berupa essence. Adapun fungsi essence dalam hal ini adalah untuk mempersiapkan kulit agar lebih siap dalam menyerap kandungan skincare yang digunakan setelahnya.\n\n
+            4.	Serum
+            Produk skincare yang hadir dalam bentuk serum pada dasarnya menyasar salah satu permasalahan kulit tertentu dengan lebih spesifik.\n\n
+            5.	Pelembap
+            Pelembap atau yang kerap disebut sebagai moisturizer merupakan jenis skincare berikutnya yang wajib dimiliki oleh setiap tipe kulit. Dengan menggunakan pelembap, kulit akan menjadi lebih sehat, halus, dan kenyal, serta terhindar dari berbagai macam permasalahan kulit lainnya.\n\n
+            6.	Sunscreen
+            Sunscreen atau tabir surya adalah jenis skincare berikutnya yang perlu Anda ketahui. Produk skincare yang satu ini mampu menjaga dan melindungi kulit dari radiasi sinar UV yang memiliki dampak buruk bagi kulit, bahkan mampu menembus hingga lapisan terdalam.\n
+
+        </item>
+
+        <item>
+            Rutinitas penggunaan skincare rasanya sudah tidak bisa dilepaskan dari kehidupan sehari-hari. Terlebih dengan hadirnya berbagai varian skincare, baik skincare lokal maupun asing, yang mengakomodasi segala jenis kulit.
+            Kulit normal, berminyak, kering, atau kombinasi, semuanya membutuhkan treatment yang tepat. Tidak hanya kandungannya saja, tetapi urutan penggunaannya pun tidak boleh terlewatkan agar memperoleh hasil yang maksimal dan menjaga kesehatan kulit wajah.
+            Oleh karena itu, Anda perlu memahami urutan skincare malam yang baik dan benar. Jika diaplikasikan secara rutin, kulit cerah, dan sehat bukanlah sekadar impian belaka.\n\n
+            Skincare Utama\n
+            1.	Double Cleansing
+            Lakukan double cleansing terlebih dahulu dan ingatlah selalu bahwa ini adalah tahap yang paling utama. Bersihkan wajah Anda dengan micellar water atau cleanser lain, lalu lanjutkan dengan face wash.\n\n
+            2.	Toner
+            Jika wajah sudah bersih dari sisa kosmetik atau kotoran lainnya, maka tahapan selanjutnya adalah toner. Selain menyegarkan wajah, fungsi lainnya adalah mempersiapkan kulit untuk menerima tahapan selanjutnya.\n\n
+            3.	Treatment
+            Satu hal yang cukup menonjol dalam urutan skincare malam, yakni adanya serum dan essence yang diaplikasikan sebelum tidur. Baik serum maupun essence tidak diaplikasikan dalam satu waktu, tetapi bergantian.\n\n
+            4.	Moisturizer
+            Pastikan item yang satu ini jangan sampai tertinggal karena memiliki fungsi untuk menjaga kelembapan kulit. Aplikasikan moisturizer setelah treatment apapun yang Anda gunakan.\n\n
+            5.	Eye Cream
+            Kantong mata rasanya memang susah untuk dihindari. Oleh karena itu, gunakanlah eye cream untuk menghindari kantong mata menghiasi wajah Anda.\n\n
+            6.	Lip Serum
+            Bibir yang sehat dan tidak kering bisa disebut sebagai dambaan siapa saja, mungkin Anda adalah salah satunya. Gunakan lip serum sebagai penutup dari rangkaian skincare malam hari agar bibir Anda tetap lembab sepanjang malam.\n
+        </item>
+
+        <item>
+            Merawat kulit agar tetap sehat dan cerah membutuhkan komitmen dan konsistensi. Berikut adalah beberapa tips penting yang dapat Anda terapkan untuk mendapatkan kulit yang sehat dan bercahaya:\n\n
+            1. Bersihkan Wajah dengan Tepat
+            Membersihkan wajah merupakan langkah fundamental dalam perawatan kulit. Gunakan pembersih wajah yang sesuai dengan jenis kulit Anda dan bersihkan wajah setidaknya dua kali sehari - pagi dan malam.\n\n
+            2. Eksfoliasi Secara Teratur
+            Eksfoliasi membantu mengangkat sel-sel kulit mati dan mempercepat regenerasi sel kulit baru. Lakukan eksfoliasi 1-2 kali seminggu, tergantung pada jenis kulit Anda. Pilih eksfoliator yang lembut untuk menghindari iritasi kulit.\n\n
+            3. Gunakan Pelembap
+            Pelembap membantu menjaga kelembapan kulit dan melindunginya dari dehidrasi. Pilih pelembap yang sesuai dengan jenis kulit Anda dan gunakan secara teratur, terutama setelah mandi atau mencuci muka.\n\n
+            4. Aplikasikan Tabir Surya
+            Tabir surya adalah kunci untuk melindungi kulit dari kerusakan akibat sinar UV. Gunakan tabir surya dengan SPF minimal 30 setiap hari, bahkan saat berada di dalam ruangan. Aplikasikan kembali setiap 2-3 jam, terutama jika Anda beraktivitas di luar ruangan.\n\n
+            5. Konsumsi Makanan Sehat
+            Nutrisi yang tepat sangat penting untuk kesehatan kulit. Konsumsi makanan kaya antioksidan, vitamin C, E, dan omega-3. Buah-buahan, sayuran, kacang-kacangan, dan ikan adalah pilihan makanan yang baik untuk kulit sehat.\n\n
+            6. Jaga Hidrasi
+            Minum cukup air setiap hari membantu menjaga kelembapan kulit dari dalam. Usahakan untuk minum setidaknya 8 gelas air sehari.\n\n
+            7. Tidur yang Cukup
+            Tidur yang cukup dan berkualitas membantu proses regenerasi sel kulit. Usahakan untuk tidur 7-9 jam setiap malam.\n\n
+            8. Kelola Stres
+            Stres dapat mempengaruhi kesehatan kulit. Lakukan aktivitas yang membantu mengurangi stres seperti meditasi, yoga, atau olahraga ringan.\n\n
+            9. Hindari Kebiasaan Buruk
+            Hindari merokok dan konsumsi alkohol berlebihan karena dapat merusak kulit dan mempercepat proses penuaan.\n\n
+            10. Rutin Berolahraga
+            Olahraga teratur meningkatkan sirkulasi darah yang baik untuk kesehatan kulit. Usahakan untuk berolahraga setidaknya 30 menit sehari, 3-5 kali seminggu.\n\n
+            Dengan menerapkan tips-tips di atas secara konsisten, Anda dapat membantu menjaga kesehatan dan kecerahan kulit Anda dalam jangka panjang. Ingatlah bahwa setiap orang memiliki jenis kulit yang berbeda, jadi penting untuk memahami kebutuhan spesifik kulit Anda dan menyesuaikan perawatan sesuai dengan kondisi tersebut.
+
+        </item>
+
+        <item>
+            Merawat kulit agar tidak kusam membutuhkan pendekatan holistik yang melibatkan perawatan dari luar dan dalam. Berikut adalah beberapa tips efektif untuk menjaga kulit wajah tetap cerah dan sehat:\n\n
+            1. Rutin Membersihkan Wajah
+            Membersihkan wajah secara teratur merupakan langkah fundamental dalam perawatan kulit. Gunakan pembersih wajah yang sesuai dengan jenis kulit Anda dan bersihkan wajah setidaknya dua kali sehari - pagi dan malam.\n\n
+            2. Eksfoliasi Secara Teratur
+            Eksfoliasi membantu mengangkat sel-sel kulit mati yang menumpuk di permukaan kulit. Lakukan eksfoliasi 1-2 kali seminggu menggunakan scrub lembut atau produk eksfoliasi kimia seperti AHA atau BHA. Namun, hindari eksfoliasi berlebihan yang dapat merusak lapisan pelindung kulit.\n\n
+            3. Gunakan Serum Vitamin C
+            Serum vitamin C adalah senjata rahasia untuk kulit cerah dan bercahaya. Vitamin C merupakan antioksidan kuat yang membantu mencerahkan kulit, meratakan warna kulit, dan melindungi dari kerusakan akibat radikal bebas.\n\n
+            4. Jangan Lupakan Pelembap
+            Pelembap membantu menjaga kelembaban kulit dan mencegah dehidrasi yang dapat menyebabkan kulit kusam. Pilih pelembap yang sesuai dengan jenis kulit Anda - ringan untuk kulit berminyak, dan lebih kaya untuk kulit kering.\n\n
+            5. Proteksi dari Sinar UV
+            Penggunaan tabir surya setiap hari adalah kunci untuk mencegah kerusakan kulit akibat sinar UV. Pilih tabir surya dengan SPF minimal 30 dan aplikasikan setiap pagi, bahkan saat berada di dalam ruangan.\n\n
+            6. Konsumsi Makanan Kaya Antioksidan
+            Nutrisi yang tepat sangat penting untuk kesehatan kulit. Konsumsi makanan kaya antioksidan seperti buah-buahan beri, sayuran hijau, kacang-kacangan, dan ikan berlemak dapat membantu melindungi kulit dari kerusakan oksidatif dan menjaga kecerahannya.\n\n
+            7. Jaga Hidrasi
+            Minum cukup air setiap hari membantu menjaga kulit tetap terhidrasi dari dalam. Targetkan untuk minum setidaknya 8 gelas air sehari untuk mendukung fungsi kulit yang optimal.\n\n
+            8. Tidur yang Cukup
+            Tidur yang berkualitas sangat penting untuk regenerasi kulit. Usahakan untuk tidur 7-9 jam setiap malam untuk memberikan waktu bagi kulit untuk memperbaiki dan memperbarui diri.\n\n
+            9. Kelola Stres
+            Praktikkan teknik manajemen stres seperti meditasi, yoga, atau olahraga ringan untuk mengurangi dampak negatif stres pada kulit Anda.\n\n
+            10. Gunakan Masker Wajah
+            Aplikasikan masker wajah 1-2 kali seminggu untuk memberikan nutrisi tambahan dan hidrasi intensif pada kulit. Pilih masker yang sesuai dengan kebutuhan kulit Anda.\n\n
+            Dengan menerapkan tips-tips ini secara konsisten, Anda dapat membantu mengembalikan kecerahan alami kulit dan mencegah kulit kusam. Ingatlah bahwa perawatan kulit adalah proses jangka panjang yang membutuhkan kesabaran dan konsistensi untuk melihat hasil yang optimal.
+
+        </item>
+
+        <item>
+            Penggunaan skincare atau perawatan wajah dinilai membantu untuk menjaga kesehatan kulit wajah. Penggunaan jenis skincare yang sesuai dan tepat tentu membuat kulit wajah semakin bersinar dan cerah. Tidak hanya orang yang sudah memasuki usia dewasa, penggunaan skincare diperlukan oleh anak-anak di usia remaja untuk menghindari berbagai gangguan kesehatan pada wajah.\n\n
+            Manfaat Penggunaan Skincare di Usia Remaja\n\n
+            Meskipun terlihat tidak praktis, penggunaan skincare berguna untuk merawat dan menjaga kesehatan kulit wajah sejak dini. Sebaiknya, mulai sekarang hindari rasa malas untuk menggunakan skincare agar kamu dapat merasakan beberapa manfaat untuk kulit wajah, seperti:\n\n
+            1. Memberikan Nutrisi pada Kulit Wajah
+            Umumnya, anak remaja menghabiskan banyak waktu berkaktivitas di luar rumah. Tidak ada salahnya untuk menggunakan skincare setelah kamu beraktivitas seharian agar kulit wajah tetap ternutrisi dengan baik.\n\n
+            2. Menunda Munculnya Kerutan
+            Di usia yang masih terbilang remaja, hindari kerutan yang mungkin muncul dengan penggunaan skincare yang tepat untuk jenis kulit wajah. Penggunaan skincare di usia remaja dapat membantu terhindar dari kerutan pada wajah.\n\n
+            3. Menjaga Kelembutan Kulit Wajah
+            Penggunaan skincare yang rutin dan tepat dapat membantu kamu menjaga kelembutan dan kekenyalan kulit pada wajah. Sebaiknya gunakan skincare yang memiliki kandungan kolagen di dalamnya. Kolagen menjadi salah satu kandungan yang cukup penting untuk kesehatan kulit karena dapat menjaga elastis kulit wajah.\n\n
+            4.	Menghindari Kulit Kusam
+            Penggunaan skincare dapat menghidrasi kulit wajah agar kamu terhindar dari kondisi kulit wajah yang kusam. Namun perlu diingat, sebaiknya pilih dan gunakan skincare yang sesuai dengan jenis kulit dan usia agar manfaat yang dirasakan lebih optimal.\n\n
+            Jangan lupa untuk menggunakan tabir surya dan pelembap sebelum melakukan berbagai aktivitas di luar ruangan untuk hindari paparan sinar matahari langsung pada kulit wajah. Rutin menggunakan tabir surya pada wajah menghindarkan wajah dari berbagai gangguan kesehatan.
+        </item>
     </string-array>
 
 </resources>

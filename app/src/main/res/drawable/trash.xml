@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Garis-garis pada bak sampah -->
+    <path
+        android:fillColor="#861D1D"
+        android:pathData="M160,192h48v207h-48z"/>
+
+    <path
+        android:fillColor="#861D1D"
+        android:pathData="M232,192h48v207h-48z"/>
+
+    <path
+        android:fillColor="#861D1D"
+        android:pathData="M304,192h48v207h-48z"/>
+
+    <!-- Badan utama bak sampah -->
+    <path
+        android:fillColor="#861D1D"
+        android:pathData="M374.845,112V80c0,-20.872 -14.845,-48 -46.845,-48H184c-32,0 -45.855,16 -45.855,48v32H56v48h32v272
+                         c0,32 18.145,48 50.145,48H376c32,0 48,-16 48,-48V160h32v-48H374.845z M184,80h144v32H184V80z M376,432H138.145V160H376V432z"/>
+
+</vector>

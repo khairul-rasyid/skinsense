@@ -9,7 +9,7 @@ import com.rasyid.skinsense.data.local.entity.HistoryEntity
 
 @Dao
 interface HistoryDao {
-    @Query("SELECT * FROM history")
+    @Query("SELECT * FROM history ORDER BY timestamp DESC")
     fun getHistories() : LiveData<List<HistoryEntity>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)

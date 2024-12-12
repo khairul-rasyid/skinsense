@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.rasyid.skinsense.data.SkinSenseRepository
 import com.rasyid.skinsense.di.Injection
+import com.rasyid.skinsense.ui.history.HistoryViewModel
 import com.rasyid.skinsense.ui.settings.SettingsViewModel
 
 @Suppress("UNCHECKED_CAST")
@@ -14,6 +15,9 @@ class ViewModelFactory private constructor(private val skinSenseRepository: Skin
         return when {
             modelClass.isAssignableFrom(SettingsViewModel::class.java) -> {
                 SettingsViewModel(skinSenseRepository) as T
+            }
+            modelClass.isAssignableFrom(HistoryViewModel::class.java) -> {
+                HistoryViewModel(skinSenseRepository) as T
             }
 
             else -> throw IllegalArgumentException("Unknown ViewModel class: " + modelClass.name)
