@@ -21,7 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27" />
+        app:layout_constraintVertical_bias="0.35" />
 
     <TextView
         android:id="@+id/tv_topic_1"
@@ -89,7 +89,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27" />
+        app:layout_constraintVertical_bias="0.29" />
 
     <RadioGroup
         android:id="@+id/rg_answers"
@@ -129,28 +129,29 @@
         android:id="@+id/btn_prev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/baseline_navigate_before_24"
-        android:contentDescription="@string/before"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/before"
+        android:src="@drawable/baseline_navigate_before_24"
+        app:layout_constraintEnd_toEndOf="@+id/rg_answers"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/rg_answers"/>
+        app:layout_constraintTop_toBottomOf="@id/rg_answers" />
 
     <ImageButton
         android:id="@+id/btn_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="280dp"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:contentDescription="@string/next"
         android:src="@drawable/baseline_navigate_next_24"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintBottom_toBottomOf="@+id/btn_prev"
+        app:layout_constraintEnd_toEndOf="@+id/rg_answers"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/btn_prev"
         app:layout_constraintTop_toTopOf="@id/btn_prev"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1" />
 
     <Button
         android:id="@+id/btn_analysis"
