@@ -4,9 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.rasyid.skinsense.R
 import com.rasyid.skinsense.data.Article
@@ -24,8 +22,6 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
@@ -44,10 +40,9 @@ class HomeFragment : Fragment() {
         val source = resources.getStringArray(R.array.source_article)
         val image = resources.obtainTypedArray(R.array.image_article)
         val desc = resources.getStringArray(R.array.description_article)
-        val url = resources.getStringArray(R.array.url_article)
         val listArticle = ArrayList<Article>()
         for (i in title.indices) {
-            val article = Article(title[i], source[i],image.getResourceId(i, - 1), desc[i], url[i])
+            val article = Article(title[i], source[i],image.getResourceId(i, - 1), desc[i])
             listArticle.add(article)
         }
         image.recycle()
