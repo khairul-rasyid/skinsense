@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             tools:text="@string/title_product"
             android:textSize="16sp"
-            android:textColor="@color/black"
+            android:textColor="@color/text_color"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,7 +50,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             tools:text="@string/title_feature"
-            android:textColor="@color/black"
+            android:textColor="@color/text_color"
             android:textSize="16sp"
             android:layout_marginTop="12dp"
             app:layout_constraintStart_toStartOf="@+id/tv_products"
@@ -71,7 +71,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             tools:text="@string/title_material"
-            android:textColor="@color/black"
+            android:textColor="@color/text_color"
             android:layout_marginTop="12dp"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@+id/tv_features"

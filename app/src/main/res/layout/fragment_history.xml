@@ -34,6 +34,7 @@
         tools:text="@string/no_history"
         android:textSize="18sp"
         tools:visibility="visible"
+        android:textColor="@color/text_color"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
