@@ -40,7 +40,6 @@
         <item>12. Seberapa sering Anda mengonsumsi makanan berminyak atau tinggi gula?</item>
         <item>13. Bagaimana tingkat stres Anda sehari-hari?</item>
         <item>14. Berapa banyak air yang Anda minum dalam sehari?</item>
-        <item>15. Apakah Anda sering terpapar cuaca ekstrem (panas atau dingin)?</item>
     </string-array>
 
     <array name="options">
@@ -58,7 +57,6 @@
         <item>@array/option_12</item>
         <item>@array/option_13</item>
         <item>@array/option_14</item>
-        <item>@array/option_15</item>
     </array>
 
     <string-array name="option_1">
@@ -93,19 +91,19 @@
         <item>Sering, terutama saat udara dingin atau panas</item>
         <item>Kadang-kadang saat mencoba produk baru</item>
         <item>Hampir tidak pernah</item>
-        <item>Tergantung kondisi tertent</item>
+        <item>Tergantung kondisi tertentu</item>
     </string-array>
 
     <string-array name="option_6">
         <item>Mudah terbakar dan terasa kering</item>
-        <item>Berminyak atau berkeringa</item>
+        <item>Berminyak atau berkeringat</item>
         <item>Tidak ada perubahan signifikan</item>
         <item>Tergantung pada durasi paparan</item>
     </string-array>
 
     <string-array name="option_7">
         <item>Kulit kering atau kusam</item>
-        <item>Minyak berlebih dan jerawa</item>
+        <item>Minyak berlebih dan jerawat</item>
         <item>Penuaan dini atau garis halus</item>
         <item>Kombinasi masalah</item>
     </string-array>
@@ -157,13 +155,6 @@
         <item>1–2 liter</item>
         <item>Lebih dari 2 liter</item>
         <item>Tidak teratur, tergantung aktivitas</item>
-    </string-array>
-
-    <string-array name="option_15">
-        <item>Ya, sering terkena cuaca ekstrem</item>
-        <item>Kadang-kadang, terutama di musim tertentu</item>
-        <item>Tidak, cuaca stabil sepanjang tahun</item>
-        <item>Beragam tergantung musim</item>
     </string-array>
 
     <string-array name="source_article">
