@@ -129,6 +129,6 @@ class AnalysisActivity : AppCompatActivity() {
         binding.btnNext.alpha = if (currentIndex == questions.size - 1) 0.3f else 1.0f
         binding.btnPrev.isEnabled = currentIndex != 0
         binding.btnPrev.alpha = if (currentIndex == 0 ) 0.3f else 1.0f
-        binding.btnAnalysis.alpha = if (currentIndex == 14) 1.0f else 0.0f
+        binding.btnAnalysis.alpha = if (currentIndex == 13) 1.0f else 0.0f
     }
 }
